@@ -1,0 +1,17 @@
+
+{
+  "name": "pasiya-md-session-site",
+  "version": "1.0.0",
+  "description": "Session ID generator for PASIYA-MD WhatsApp bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@hapi/boom": "^10.0.0",
+    "@whiskeysockets/baileys": "^6.5.0",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "qrcode": "^1.5.1"
+  }
+}
